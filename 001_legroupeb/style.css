@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header, footer {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+section {
+    background-color: rgb(209, 210, 212);
+    color: black;
+    margin: 0 300px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    padding : 10px 15px;
+    cursor: pointer;
+}
+
+h1 { text-indent: 300px;}
+
+.active {
+    background-color: cadetblue;
+}
+
+footer {
+    text-align: center;
+    padding : 20px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color : white;
+
+}
+
+p, h2 {
+    font-size: 1.6em;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+
+
+.sources {
+    text-align: right;
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.sources a {
+    text-decoration: none;
+    color: cadetblue;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.cover {
+    text-align:center;
+}
+
+.definition {
+    padding: 0 20px;
+}
+
+.cover img {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.cover:hover img {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.constructor {
+    text-align: center;
+    padding: 50px 0 100px;
+}
+
+div {
+    display: inline-block;
+    margin : 0 6px;
+}
+
+div img {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border: solid 1px;
+}
+
+div img:hover {
+-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+h3 {
+    font-size: 2.2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.legende {
+    font-size: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+

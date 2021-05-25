@@ -1,0 +1,1 @@
+alert("Bonjour, ceci est un site web d'essai. Aucune donnée de navigation n'est donc exploitée ou conservée.")
